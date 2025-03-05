@@ -1,0 +1,12 @@
+[package]
+name = "jvm"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.0", features = ["derive"] }
+dirs = "4.0"
+thiserror = "1.0"
+tokio = { version = "1.0", features = ["rt-multi-thread", "macros"] }
+winreg = "0.10"
+winapi = { version = "0.3", features = ["winuser"] }
